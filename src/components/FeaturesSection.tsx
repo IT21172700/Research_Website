@@ -13,8 +13,8 @@ const features = [
     color: "var(--color-primary)"
   },
   {
-    name: "Harvest Prediction",
-    description: "Predicts optimal harvest times and yield quantities for three betel leaf types using advanced machine learning algorithms.",
+    name: "Banana Ripeness Prediction",
+    description: "Classify banana images into ripeness stages using CNN and transfer learning.",
     icon: <BarChart className="h-6 w-6 text-white" />,
     color: "var(--color-primary-dark)"
   },

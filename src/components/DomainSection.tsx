@@ -181,7 +181,7 @@ export default function DomainSection() {
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div className="bg-amber-50 rounded-lg p-4">
                     <h4 className="font-semibold mb-2 text-amber-800">Ripeness Prediction</h4>
-                    <p className="text-amber-700 text-sm">ML-powered system to forecast optimal harvest times and yields</p>
+                    <p className="text-amber-700 text-sm">ML-powered system to Classify banana images into ripeness stages</p>
                   </div>
                   
                   <div className="bg-green-50 rounded-lg p-4">
@@ -343,18 +343,7 @@ export default function DomainSection() {
                   color: "#5C3EE8",
                   category: "Computer Vision"
                 },
-                { 
-                  name: "Scikit-learn", 
-                  icon: "/tech/scikit.webp", 
-                  color: "#F7931E",
-                  category: "Machine Learning"
-                },
-                { 
-                  name: "WhatsApp API", 
-                  icon: "/tech/whatsapp.svg", 
-                  color: "#25D366",
-                  category: "APIs"
-                }
+                
               ].map((tech, index) => (
                 <motion.div
                   key={index}

@@ -39,7 +39,7 @@ export default function AboutSection() {
               {/* Stats overlay */}
               <div className="absolute bottom-0 left-0 right-0 p-8 grid grid-cols-3 gap-4">
                 {[
-                  { value: "94.95%", label: "P-Type Accuracy" },
+                  { value: "97.09%", label: "Ripeness Prediction" },
                   { value: "88.89%", label: "KT-Type Accuracy" },
                   { value: "87.4%", label: "Market Prediction" }
                 ].map((stat, index) => (
@@ -68,18 +68,17 @@ export default function AboutSection() {
               About the Project
             </h2>
             <h3 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-              Empowering Sri Lankan Betel Farmers
+              Empowering Sri Lankan Banana Farmers
             </h3>
             <p className="mt-4 text-lg text-gray-600">
-              BetelCare is an innovative Flutter application designed specifically for betel farmers in Sri Lanka. 
-              We&apos;re bridging the gap between traditional farming techniques and modern data-driven agriculture.
+              SmartMusa is a transformative mobile application built using React Native, specifically designed for banana farmers in Sri Lanka. It bridges the gap between age-old agricultural practices and cutting-edge smart farming technologies.
             </p>
             
             <div className="mt-8 space-y-4">
               {[
-                "Developed for the Puttalam, Anamaduwa, and Kurunegala regions",
+                "Developed for regions like Anuradhapura, Dambulla, and Embilipitiya",
                 "Fully available in Sinhala language for easy understanding",
-                "Combines AI technology with traditional farming knowledge",
+                "Combines AI (CNN, VGG16) and IoT with local farming expertise",
                 "Increases productivity and reduces resource wastage"
               ].map((feature, index) => (
                 <div key={index} className="flex items-start">
